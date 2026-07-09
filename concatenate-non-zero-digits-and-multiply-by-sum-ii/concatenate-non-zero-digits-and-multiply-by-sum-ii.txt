@@ -1,0 +1,13 @@
+
+            long left = preConcat[l];
+            long right = preConcat[r + 1];
+
+            long concat = (right - (left * pow10[digits]) % MOD + MOD) % 
+            MOD;
+
+            ans[i] = (int) ((sum * concat) % MOD);
+        }
+
+        return ans;
+    }
+}
