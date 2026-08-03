@@ -3,7 +3,7 @@ class Solution {
         int n =stoneValue.length;
         int[] dp= new int[n+1];
         
-        for(int i=n-1; i<=0; i--){
+        for(int i=n-1; i>=0; i--){
             dp[i]=Integer.MIN_VALUE;
             int sum=0;
         
