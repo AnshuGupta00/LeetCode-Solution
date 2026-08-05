@@ -27,9 +27,11 @@ class Solution {
         if(!isSuspicious[caller] && isSuspicious[called]){
             List all=new ArrayList<>();
             for(int m=0; m<n; m++){
-                return all;
+                all.add(m);
             }
+            return all;
         }
+    }
     //step 4:
     List<Integer> result =new ArrayList<>();
     for(int m =0; m<n; m++){
