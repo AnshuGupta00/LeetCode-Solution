@@ -7,7 +7,8 @@ public:
              nums[i++] =nums[j];     
             }
         }
-        for(   ; i<nums.size(); i++){
+        for(   ; i<nums.size()
+        ; i++){
             nums[i]=0;
         }
     }
